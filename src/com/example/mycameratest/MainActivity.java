@@ -50,8 +50,6 @@ public class MainActivity extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-    //private static final int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 100;
-    //private static final int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 100;
 	public void takeAPhoto(){
 		String path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/MyCameraTest";
 		File folder = new File(path);
