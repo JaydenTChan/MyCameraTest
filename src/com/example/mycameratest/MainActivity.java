@@ -1,5 +1,4 @@
 package com.example.mycameratest;
-Ali.
 import java.io.File;
 
 import android.app.Activity;
